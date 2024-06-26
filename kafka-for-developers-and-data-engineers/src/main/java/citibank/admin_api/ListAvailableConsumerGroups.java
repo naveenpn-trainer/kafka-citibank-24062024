@@ -1,9 +1,8 @@
-package citibank;
+package citibank.admin_api;
 
 import org.apache.kafka.clients.admin.AdminClient;
 import org.apache.kafka.clients.admin.AdminClientConfig;
 import org.apache.kafka.clients.admin.ListConsumerGroupsResult;
-import org.apache.kafka.clients.producer.ProducerConfig;
 
 import java.util.Properties;
 import java.util.concurrent.ExecutionException;
