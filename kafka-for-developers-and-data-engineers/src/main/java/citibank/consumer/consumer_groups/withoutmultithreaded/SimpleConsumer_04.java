@@ -1,4 +1,4 @@
-package citibank.consumer;
+package citibank.consumer.consumer_groups.withoutmultithreaded;
 
 import citibank.config.AppConfig;
 import org.apache.kafka.clients.consumer.*;
@@ -6,7 +6,7 @@ import org.apache.kafka.clients.consumer.*;
 import java.util.Arrays;
 import java.util.Properties;
 
-public class SimpleConsumer {
+public class SimpleConsumer_04 {
     public static void main(String[] args) {
         Properties properties = new Properties();
         properties.put(ConsumerConfig.CLIENT_ID_CONFIG, "consumerA");

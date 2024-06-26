@@ -7,9 +7,12 @@
     <groupId>org.citibank</groupId>
     <artifactId>kafka-for-developers-and-data-engineers</artifactId>
     <version>1.0-SNAPSHOT</version>
+    <packaging>pom</packaging>
+    <modules>
+        <module>spring-boot-producer-consumer-api</module>
+    </modules>
 
     <properties>
-
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
 

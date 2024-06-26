@@ -29,7 +29,7 @@ public class _03_SpecificPartitioningMechanism {
             System.out.println("Enter partition number");
             partitionNumber = Integer.parseInt(input.nextLine());
             if (!message.equals("quit")) {
-                ProducerRecord record = new ProducerRecord<>("my-custom-topic", partitionNumber, null, message);
+                ProducerRecord record = new ProducerRecord<>("my-demo-topic", partitionNumber, null, message);
                 producer.send(record);
             }
         } while (!message.equals("quit"));
