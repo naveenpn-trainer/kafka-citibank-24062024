@@ -9,8 +9,10 @@
         <version>3.2.5</version>
         <relativePath/>
     </parent>
-
-    <artifactId>spring-boot-producer-consumer-api</artifactId>
+    <packaging>pom</packaging>
+    <groupId>org.citibank</groupId>
+    <artifactId>spring-boot</artifactId>
+    <version>1.0-SNAPSHOT</version>
     <dependencies>
         <dependency>
             <groupId>org.springframework.boot</groupId>
@@ -28,4 +30,7 @@
             <optional>true</optional>
         </dependency>
     </dependencies>
+    <modules>
+        <module>spring-boot-producer-consumer-api</module>
+    </modules>
 </project>
