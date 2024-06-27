@@ -1,6 +1,6 @@
 package citibank.handson.producer.partitioning_mechanism;
 
-import citibank.config.AppConfig;
+import citibank.handson.config.AppConfig;
 import org.apache.kafka.clients.producer.KafkaProducer;
 import org.apache.kafka.clients.producer.Producer;
 import org.apache.kafka.clients.producer.ProducerConfig;

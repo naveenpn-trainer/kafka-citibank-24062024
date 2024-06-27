@@ -1,6 +1,5 @@
 package citibank.handson.consumer;
-
-import citibank.config.AppConfig;
+import citibank.handson.config.AppConfig;
 import org.apache.kafka.clients.consumer.*;
 import org.apache.kafka.common.TopicPartition;
 

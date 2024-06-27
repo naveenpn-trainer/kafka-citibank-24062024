@@ -1,6 +1,6 @@
 package citibank.handson.consumer.consumer_groups.withoutmultithreaded;
 
-import citibank.config.AppConfig;
+import citibank.handson.config.AppConfig;
 import org.apache.kafka.clients.consumer.*;
 
 import java.util.Arrays;
