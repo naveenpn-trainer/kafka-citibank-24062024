@@ -15,6 +15,7 @@
 
     <modules>
         <module>producer-consumer-api</module>
+        <module>kafka-streams</module>
     </modules>
 
 
